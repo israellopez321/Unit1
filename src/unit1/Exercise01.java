@@ -7,12 +7,12 @@ public class Exercise01 {
 	public static void main(String[] args) {
 		//Creation a new scanner
 		Scanner reader = new Scanner (System.in);
-		//Declare a variable 
+		//Declaration a variable 
 		int numero;
-		//Aske the user for a number
+		//Ask the user for a number
 		System.out.println("Introduzca un número:");
 		numero = reader.nextInt();
-		//print the final message
+		//Print the final message
 		System.out.println("Has escrito el número " + numero);
 		
 		reader.close();
