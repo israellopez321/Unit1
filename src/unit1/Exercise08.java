@@ -1,3 +1,4 @@
+
 package unit1;
 
 import java.util.Scanner;
@@ -18,7 +19,7 @@ public class Exercise08 {
 		System.out.println("Introduzca su edad:");
 		age = sc.nextDouble();
 		//Print the final message
-		System.out.println("Hola " + name + " , tienes " + age + " años, que mayor eres");
+		System.out.println("Hola " + name + " , tienes " + age + " años, ¡qué mayor eres!");
 			
 		
 		sc.close();
