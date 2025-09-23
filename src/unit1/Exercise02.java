@@ -7,7 +7,7 @@ public class Exercise02 {
 	public static void main(String[] args) {
 		//Creation a new scanner
 		Scanner reader = new Scanner(System.in);
-		//Declaration a variable
+		//Declaration age
 		long age;
 		//Ask the user for his age
 		System.out.println("Introduzca su edad:");

@@ -7,7 +7,7 @@ public class Exercise01 {
 	public static void main(String[] args) {
 		//Creation a new scanner
 		Scanner reader = new Scanner (System.in);
-		//Declaration a variable 
+		//Declaration number
 		int numero;
 		//Ask the user for a number
 		System.out.println("Introduzca un número:");

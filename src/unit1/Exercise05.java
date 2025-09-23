@@ -6,9 +6,11 @@ public class Exercise05 {
 	public static void main(String[] args) {
 		//Creation a new scanner
 		Scanner sc = new Scanner(System.in);
-		//Declaration variables
+		//Declaration radio of circumference
 		double radio;
+		//Declaration length of circumference
 		double length;
+		//Declaration area of circumference
 		double area;
 		//Ask the user for the radio
 		System.out.println("Introduzca el radio de la circunferencia en cm:");
