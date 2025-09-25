@@ -9,15 +9,13 @@ public class Exercise09 {
 		Scanner sc = new Scanner(System.in);
 		// Declaration age
 		int age;
+		boolean esMayorDeEdad;
 		// Ask the user his age
 		System.out.println("Introduzca su edad:");
 		// Use of "if" to check if you are of legal age
 		age = sc.nextInt();
-		if (age >= 18) {
-			System.out.println("Eres mayor de edad");
-		} else {
-			System.out.println("Eres menor de edad");
-		}
+		esMayorDeEdad = age >= 18;
+				System.out.println("¿Es mayor de edad? " + esMayorDeEdad);
 		sc.close();
 	}
 
