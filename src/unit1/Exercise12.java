@@ -8,8 +8,9 @@ public class Exercise12 {
 		//Creation a new scanner
 		Scanner sc = new Scanner(System.in);
 		//Declaration the weight of apples and pears
-		float kgApples;
-		float kgPears;
+		double kgApples;
+		double kgPears;
+		double finalPrice;
 		//Declaration the prices of apples and pears
 		final double pricesApples = 2.35;
 		final double pricesPears = 1.95;
@@ -18,9 +19,12 @@ public class Exercise12 {
 		kgApples = sc.nextFloat();		
 		System.out.println("Introduzca el kilo de peras vendidos:");
 		kgPears = sc.nextFloat();
+		//Calculation final prices
+		finalPrice = (kgApples * pricesApples) + (kgPears * pricesPears);
 		
+		System.out.println("El importe total de " + kgApples + " kg y " + kgPears +" kg es igual a " + finalPrice + " euros");
 		
-		
+		sc.close();
 		
 		
 	}
