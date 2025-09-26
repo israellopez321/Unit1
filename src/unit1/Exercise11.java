@@ -9,7 +9,7 @@ public class Exercise11 {
 		Scanner sc = new Scanner(System.in);
 		//Declaration a ptas
 		int ptas;
-		int euros;
+		float euros;
 		//Valor of Pesetas to euros
 		final int valorPtas = 166;
 		//Ask the user for ptas number
