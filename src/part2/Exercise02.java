@@ -26,6 +26,8 @@ public class Exercise02 {
 		// Print how many numbers are left to be a multiple of 7
 		System.out.println("Hay que sumarle " + faltaParaMultiplo7 + " para que sea multiplo de 7");
 		sc.close();
+		
+		//cambiar con terciario 
 	}
 
 }

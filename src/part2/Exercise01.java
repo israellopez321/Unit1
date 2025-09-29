@@ -2,6 +2,8 @@ package part2;
 
 import java.util.Scanner;
 
+import jdk.internal.misc.FileSystemOption;
+
 public class Exercise01 {
 
 	public static void main(String[] args) {
@@ -17,7 +19,20 @@ public class Exercise01 {
 		numeroRedondeado = (int) (numero + 0.5);
 		System.out.println("El número redondeado es " + numeroRedondeado);
 		
+		
+//		//
+//		double parteDecimal;
+//		int parteEntera;
+//		parteEntera = (int) numero;
+//		parteDecimal = numero - parteEntera;
+//		
+//		numeroRedondeado = (parteDecimal < 0.5) ? parteEntera : parteEntera + 1;
+//		
+//		System.out.println("El número redondeado es: " + numeroRedondeado);
 		sc.close();
+		
+		
+		
 	}
 
 }
