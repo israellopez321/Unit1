@@ -5,34 +5,26 @@ import java.util.Scanner;
 public class Exercise03 {
 
 	public static void main(String[] args) {
-		// Creation a new scanner
-		Scanner sc = new Scanner(System.in);
-		// Declaration of two whole numbers
+		// Declaration two numbers
 		int numero1;
 		int numero2;
-		//
+		// Declaration number missing to be a multiple of 7
+		int numASumar;
+		// Declaration rest
 		int resto;
-		int cociente;
-		int faltaParaMultiplo;
-		// Ask the user first whole number
-		System.out.println("Introduce el primer número entero para ver cuanto le queda para ser multiplo del siguiente introducido:");
+		// Creation a new scanner
+		Scanner sc = new Scanner(System.in);
+		// Ask the user for a number
+		System.out.println("Introduzca dos números para calcular cuanto el falta para ser multiplo del segundo numero:");
 		numero1 = sc.nextInt();
-		// Ask the user second whole number
-	    System.out.println("Introduce el segundo número entero:");
 		numero2 = sc.nextInt();
-		// Calculate the rest
+		// Calculation rest
 		resto = numero1 % numero2;
-		// Calculate the aware
-		cociente = numero1 / numero2;
-		// 
-		faltaParaMultiplo = numero2 * (cociente + 1) - (numero2 * cociente) - resto;
-		// 
-		System.out.println("Hay que sumarle " + faltaParaMultiplo + " a " + numero1 + " para que sea multiplo de " + numero2);
-		
-		
-		System.out.println(cociente);
-		System.out.println(resto);
-		
+		// Calculation number missing to be a multiple of 7
+		numASumar = (resto == 0) ? 0 : (numero2 - resto);
+		// Print the final message
+		System.out.println("Queda " + numASumar + " para que " + numero1 + " sea multiplo de " + numero2);
+
 		sc.close();
 
 	}
