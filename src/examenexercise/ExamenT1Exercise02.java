@@ -10,24 +10,27 @@ public class ExamenT1Exercise02 {
 		int horasTrabajadas;
 		//Declaration hourly wage
 		double salarioHora;
-		//Declaration if the salary is greater than 1000
-		double descuento;
+		//Declaration gross salary
+		double salarioBruto;
 		//Declaration discount if you charge more than 1000
-		final int masDeMil = 15;
+		final double masDeMil = 0.15;
 		//Declaration discount if you charge less than 1000
-		final int menosDeMil = 10;
-		//Declaration weekly salary
-		double salarioSemanal;
+		final double menosDeMil = 0.10;
+		//Declaration net salary
+		double salarioNeto;
 		//Ask the user for hours worked
 		System.out.println("¿Cuántas horas has trabajado está semana?");
 		horasTrabajadas = sc.nextInt();
 		//Ask the user for hourly wage
 		System.out.println("¿Cuánto te pagan por hora?");
 		salarioHora = sc.nextDouble();
-		//Ask the user if you charge more or less than 1000
-	    
-		//Calculation of weekly salary 
-		salarioSemanal = (double) horasTrabajadas * salarioHora * (salario) ? masDeMil : menosDeMil; / 100
+		//Calculation gross salary
+	    salarioBruto = horasTrabajadas * salarioHora;  
+		//Calculation net salary 
+		salarioNeto = salarioBruto - salarioBruto * ((salarioBruto > 1000) ? masDeMil : menosDeMil);
 		//Print the weekly salary
+		System.out.println("El salario semanal es de " + salarioNeto + " euros");
+		
+		sc.close();
 	}
 }
