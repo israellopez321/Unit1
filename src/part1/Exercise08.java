@@ -1,5 +1,5 @@
 
-package unit1;
+package part1;
 
 import java.util.Scanner;
 
