@@ -20,7 +20,12 @@ public class Exercise04 {
 		numeroB = sc.nextInt();
 		numeroC = sc.nextInt();
 		numeroX = sc.nextInt();
+		//Calculate the quadratic
+		numeroY = numeroA * Math.pow(numeroX, 2) + numeroB * numeroX + numeroC;
+		//Print result of quadratic
+		System.out.println("El valor de Y es igual a " + numeroY);
 		
+		sc.close();
 		
 	}
 
