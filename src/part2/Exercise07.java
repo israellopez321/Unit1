@@ -20,9 +20,9 @@ public class Exercise07 {
 		double costeFinal;
 		double costeDescuento;
 		// Ask the user how many tickets want
-		System.out.println("Cuantos entradas para infantiles quieres comprar?");
+		System.out.println("Cuantos entradas infantiles quieres comprar?");
 		entradasInfantil = sc.nextInt();
-		System.out.println("Cuantos entradas para adultos quieres comprar?");
+		System.out.println("Cuantos entradas adultos quieres comprar?");
 		entradasAdulto = sc.nextInt();
 		// Calculation the cost of tickets
 		costeEntradas = precioInfantil * entradasInfantil + precioAdulto * entradasAdulto;
