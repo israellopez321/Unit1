@@ -11,11 +11,11 @@ public class Exercise11 {
 		int ptas;
 		float euros;
 		// Valor of Pesetas to euros
-		final int valorPtas = 166;
+		final int VALOR_PTAS = 166;
 		// Ask the user for ptas number
 		System.out.println("Cuántas pesetas quieres convertir a euro?");
 		ptas = sc.nextInt();
-		euros = ptas / valorPtas;
+		euros = ptas / VALOR_PTAS;
 		System.out.println("Por " + ptas + " pesetas te vamos a dar " + euros + " euros");
 		sc.close();
 	}

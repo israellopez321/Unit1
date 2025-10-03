@@ -12,15 +12,15 @@ public class Exercise12 {
 		double kgPears;
 		double finalPrice;
 		//Declaration the prices of apples and pears
-		final double pricesApples = 2.35;
-		final double pricesPears = 1.95;
+		final double PRICES_APPLES = 2.35;
+		final double PRICES_PEARS = 1.95;
 		//Ask the user apples kg and pears kg
 		System.out.println("Introduzca el kilo de manzanas vendidos:");
 		kgApples = sc.nextFloat();		
 		System.out.println("Introduzca el kilo de peras vendidos:");
 		kgPears = sc.nextFloat();
 		//Calculation final prices
-		finalPrice = (kgApples * pricesApples) + (kgPears * pricesPears);
+		finalPrice = (kgApples * PRICES_APPLES) + (kgPears * PRICES_PEARS);
 		
 		System.out.println("El importe total de " + kgApples + " kg y " + kgPears +" kg es igual a " + finalPrice + " euros");
 		

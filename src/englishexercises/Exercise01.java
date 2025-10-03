@@ -10,7 +10,7 @@ public class Exercise01 {
 		//Declaration price
 		double price;
 		//Declaration tax
-		final int tax;
+		final int TAX;
 		//Declaration new price
 		double finalPrice;
 		//Display program title
@@ -22,9 +22,9 @@ public class Exercise01 {
 		//Display prompt for tax
 		System.out.println("Enter the applicable tax:");
 		//Enter tax
-		tax = sc.nextInt();
+		TAX = sc.nextInt();
 		//Set price to price 
-		finalPrice = price - price * tax / 100;
+		finalPrice = price - price * TAX / 100;
 		//Display new price
 		System.out.println("The final price is " + finalPrice + " euros");
 		

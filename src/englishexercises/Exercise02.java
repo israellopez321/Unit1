@@ -10,7 +10,7 @@ public class Exercise02 {
 		// Declaration of age
 		int age;
 		// Declaration of year
-		final int year = 2025;
+		final int YEAR = 2025;
 		// Declaration of birth year
 		int birthYear;
 		// Ask the user for their age
@@ -18,7 +18,7 @@ public class Exercise02 {
 		// Enter age
 		age = sc.nextInt();
 		// Calculation of birth year
-		birthYear = year - age;
+		birthYear = YEAR - age;
 		// Display birth year
 		System.out.println("At " + age + " years old you were born in the year " + birthYear);
 

@@ -11,10 +11,10 @@ public class Exercise07 {
 		int entradasInfantil;
 		int entradasAdulto;
 		// Declaration prices
-		final double precioInfantil = 15.50;
-		final double precioAdulto = 20;
+		final double PRECIO_INFANTIL = 15.50;
+		final double PRECIO_ADULTO = 20;
 		// Declaration variable if total cost is greater than 100 euro
-		final double mayorDe100 = 0.05;
+		final double MAYOR_DE_100 = 0.05;
 		// Declaration variable for save cost of tickets
 		double costeEntradas;
 		double costeFinal;
@@ -25,9 +25,9 @@ public class Exercise07 {
 		System.out.println("Cuantos entradas adultos quieres comprar?");
 		entradasAdulto = sc.nextInt();
 		// Calculation the cost of tickets
-		costeEntradas = precioInfantil * entradasInfantil + precioAdulto * entradasAdulto;
+		costeEntradas = PRECIO_INFANTIL * entradasInfantil + PRECIO_ADULTO * entradasAdulto;
 		// Calculation cost of discount
-		costeDescuento = costeEntradas * mayorDe100;
+		costeDescuento = costeEntradas * MAYOR_DE_100;
 		// Apply the discount
 		costeFinal = (costeEntradas > 100) ? costeEntradas - costeDescuento : costeEntradas;
 		// Print final cost

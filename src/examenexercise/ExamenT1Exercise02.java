@@ -13,9 +13,9 @@ public class ExamenT1Exercise02 {
 		//Declaration gross salary
 		double salarioBruto;
 		//Declaration discount if you charge more than 1000
-		final double masDeMil = 0.15;
+		final double MAS_DE_MIL = 0.15;
 		//Declaration discount if you charge less than 1000
-		final double menosDeMil = 0.10;
+		final double MENOS_DE_MIL = 0.10;
 		//Declaration net salary
 		double salarioNeto;
 		//Ask the user for hours worked
@@ -27,7 +27,7 @@ public class ExamenT1Exercise02 {
 		//Calculation gross salary
 	    salarioBruto = horasTrabajadas * salarioHora;  
 		//Calculation net salary 
-		salarioNeto = salarioBruto - salarioBruto * ((salarioBruto > 1000) ? masDeMil : menosDeMil);
+		salarioNeto = salarioBruto - salarioBruto * ((salarioBruto > 1000) ? MAS_DE_MIL : MENOS_DE_MIL);
 		//Print the weekly salary
 		System.out.println("El salario semanal es de " + salarioNeto + " euros");
 		
