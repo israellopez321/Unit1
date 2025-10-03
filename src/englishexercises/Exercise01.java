@@ -14,7 +14,7 @@ public class Exercise01 {
 		//Declaration new price
 		double finalPrice;
 		//Display program title
-		System.out.println("Price calculations");
+		System.out.println("TAX CALCULATOR");
 		//Display prompt for price 
 		System.out.println("Enter the price to calculate the final price:");
 		//Enter price
@@ -24,7 +24,7 @@ public class Exercise01 {
 		//Enter tax
 		TAX = sc.nextInt();
 		//Set price to price 
-		finalPrice = price - price * TAX / 100;
+		finalPrice = price * (1 + (double)TAX / 100);
 		//Display new price
 		System.out.println("The final price is " + finalPrice + " euros");
 		

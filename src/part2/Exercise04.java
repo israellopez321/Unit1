@@ -26,7 +26,5 @@ public class Exercise04 {
 		System.out.println("El valor de Y es igual a " + numeroY);
 		
 		sc.close();
-		
 	}
-
 }
