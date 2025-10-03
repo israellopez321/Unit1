@@ -14,6 +14,7 @@ public class Exercise02 {
 		Scanner sc = new Scanner(System.in);
 		// Ask the user for a number
 		System.out.println("Introduzca un número para calcular cuanto le queda para ser multiplo de 7:");
+		//Enter numero
 		numero = sc.nextInt();
 		// Calculation rest
 		resto = numero % 7;

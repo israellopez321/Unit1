@@ -16,7 +16,9 @@ public class Exercise03 {
 		Scanner sc = new Scanner(System.in);
 		// Ask the user for a number
 		System.out.println("Introduzca dos números para calcular cuanto el falta para ser multiplo del segundo numero:");
+		//Enter first number
 		numero1 = sc.nextInt();
+		//Enter second number
 		numero2 = sc.nextInt();
 		// Calculation rest
 		resto = numero1 % numero2;
